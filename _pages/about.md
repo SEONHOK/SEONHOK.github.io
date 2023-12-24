@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea.
+I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, optimization, signal processing. and wireless communication. 
 
-# Research Interest
 
-I am broadly intrested in the application and theoretical aspects in the fields of machine learning, optimization, signal processing and wireless communication. During Ph.D, I have mainly two folds research directions: 1. I work on developing scalable and efficient algorithms with theoretical guarantees for non-trivial statistical models. My main questions focus on that "how many data does the algorithm require for successful estimating some models?" and "Can the algorithm learn the model with high probability"? 2. I'm also working on the algorithm for promoting the sparsity in the model for efficient learning.
+
+
+
+<!-- # Research Highlights
+
+I am broadly intrested in the application and theoretical aspects in the fields of machine learning, optimization, signal processing and wireless communication. During Ph.D, I have mainly two folds research directions: 1. I work on developing scalable and efficient algorithms with theoretical guarantees for non-trivial statistical models. My main questions focus on that "how many data does the algorithm require for successful estimating some models?" and "Can the algorithm learn the model with high probability"? 2. I'm also working on the algorithm for promoting the sparsity in the model for efficient learning. -->
 
 <!-- low-rank matrice estimation and update in fields of efficient learning 
 
