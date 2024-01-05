@@ -1,13 +1,25 @@
 # main links links
 main:
-  - title: "My research"
-    url: /research/  
+  - title: "Research summary"
+    url: "#research_summary" 
 
   - title: "Publications"
-    url: /publications/  
+    url: "#Publications" 
 
   - title: "CV"
     url: /cv/
+
+
+# main:
+#   - title: "Research Highlights"
+#     url: "#research_highlights"
+#   - title: "Publications"
+#     url: "#Publications"
+#   - title: "Patents"
+#     url: "#Patents"
+#   - title: "Work Experience"
+#     url: "#Experience"
+  
       
 
 

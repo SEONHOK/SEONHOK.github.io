@@ -56,11 +56,13 @@ I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof.
       <p class="justified-text"> Phase Retrieval recovers a signal from the absolute value of its linear measurements, which arises in signal and imaging processing. We proposed an iterative Gauss-Newton method for phase retrieval in outlier scenarios and demonstrated that a linear program can solve a step of the Gauss-Newton method. Furthermore, we established that in outlier scenarios, the method converges to the ground-truth signal at a linear rate with near-optimal sample complexity with high probability. Lastly, we demonstrate that our proposed methods are computationally efficient and exhibit superior performance compared to the baseline algorithms.
       <a href="http://web.cse.ohio-state.edu/~wang.77/papers/TTW.taslp22.pdf">Read More</a>  </p>
     </div>
+    <!-- First Row of Images -->
     <div class="project-image-row" style="display: flex; justify-content: space-between;">
         <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 1 Description'>
         <img src='/images/init_ours.png' style='width:30%;' alt='Project Image 2 Description'>
         <img src='/images/recover_ours.png' style='width:30%;' alt='Project Image 3 Description'>
     </div>
+    <!-- Second Row of Images -->
     <div class="project-image-row" style="display: flex; justify-content: space-between; margin-top: 20px;">
         <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 4 Description'>
         <img src='/images/init_base.png' style='width:30%;' alt='Project Image 5 Description'>
