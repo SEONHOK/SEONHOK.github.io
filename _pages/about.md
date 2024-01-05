@@ -8,7 +8,92 @@ redirect_from:
   - /about.html
 ---
 
-I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, optimization, signal processing. and wireless communication. 
+<style>
+    .project-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project-content .project-text,
+    .project-content .project-image {
+        width: 100%;
+    }
+</style>
+<style>
+    @media screen and (min-width: 768px) { 
+        .project-content {
+            flex-direction: row; /* This reverses the order of flex items */
+        }
+        .project-content .project-text {
+            flex: 1;
+            padding-right: 20px; /* Adjust padding to the left of the text for separation */
+        }
+        .project-content .project-image {
+            max-width: 300px;
+          
+        }
+    }
+           .justified-text {
+            text-align: justify;
+        }
+</style>
+
+
+I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, optimization, signal processing, and wireless communication. 
+
+
+
+
+# Research Summary
+
+<a id="research_summary"></a>
+## Research Summary
+
+
+### Robust Phase Retrieval via iterative linear programs
+<div class="project-content">
+    <div class="project-text">
+      <p class="justified-text"> Phase Retrieval recovers a signal from the absolute value of its linear measurements, which arises in signal and imaging processing. We proposed an iterative Gauss-Newton method for phase retrieval in outlier scenarios and demonstrated that a linear program can solve a step of the Gauss-Newton method. Furthermore, we established that in outlier scenarios, the method converges to the ground-truth signal at a linear rate with near-optimal sample complexity with high probability. Lastly, we demonstrate that our proposed methods are computationally efficient and exhibit superior performance compared to the baseline algorithms.
+      <a href="http://web.cse.ohio-state.edu/~wang.77/papers/TTW.taslp22.pdf">Read More</a>  </p>
+    </div>
+    <div class="project-image-row" style="display: flex; justify-content: space-between;">
+        <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 1 Description'>
+        <img src='/images/init_ours.png' style='width:30%;' alt='Project Image 2 Description'>
+        <img src='/images/recover_ours.png' style='width:30%;' alt='Project Image 3 Description'>
+    </div>
+    <div class="project-image-row" style="display: flex; justify-content: space-between; margin-top: 20px;">
+        <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 4 Description'>
+        <img src='/images/init_base.png' style='width:30%;' alt='Project Image 5 Description'>
+        <img src='/images/recovered_base.png' style='width:30%;' alt='Project Image 6 Description'>
+    </div>
+</div>
+
+----
+
+### Max-Affine Regression
+<div class="project-content">
+    <div class="project-text">
+        <p class="justified-text"> 
+            Max-affine regression recovers ground-truth parameters in the max-affine function from its observations, which arise in statistics, economics, and machine learning. However, max-affine regression is challenging due to its non-convexity. We proposed two efficient algorithms.
+        </p>
+
+        <ul>
+            <li>
+                <strong>First Order Methods:</strong> Gradient Descent (GD) and Stochastic Gradient Descent (SGD) are efficient and popular algorithms for solving non-convex optimization problems. We have unveiled the effectiveness of first-order methods for max-affine regression through rigorous theoretical results. We demonstrate that first-order methods, when initialized near the ground-truth parameters, can solve the max-affine regression problem with linear convergence. The sample complexity is linear in terms of dimension, and polynomial in terms of certain geometrical parameters and the number of affine functions, with a high probability.
+                 <a href="https://arxiv.org/abs/2308.08070">Read More</a>
+            </li>
+            <li>
+                <strong>Convex Program:</strong> We proposed a convex program to solve max-linear regression, which is a special case of max-affine regression. We show that this convex program can solve the max-affine regression problem with sample complexity comparable to the best-known results. Furthermore, we have demonstrated that our iterative version of the convex program is robust in outlier scenarios.
+                 <a href="https://arxiv.org/abs/2103.07020">Read More</a>
+            </li>
+        </ul>
+
+    </div>
+   <div class="project-image">
+        <img src='/images/approxwages.png' style='width:300px;' alt='Max-affine regression on mean weakly wages data'>
+        <img src='/images/approxihouse.png' style='width:300px;' alt='Max-affine regression on Boston house prices data'>
+    </div>
+</div>
 
 
 
@@ -57,10 +142,10 @@ I have also created [a set of Jupyter notebooks](https://github.com/academicpage
 How to edit your site's GitHub repository
 ------
 Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons.  -->
-
+<!-- 
 Example: editing a markdown file for a talk
 ![Editing a markdown file for a talk](/images/editing-talk.png)
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
