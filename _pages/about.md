@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "✋ Hello, I'm Seonho!"
+title: "Hello! I'm Seonho Kim!"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -39,7 +39,7 @@ redirect_from:
 </style>
 
 
-I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, optimization, signal processing, and wireless communication. 
+I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, data science, optimization, signal processing, and wireless communication. 
 
 
 
