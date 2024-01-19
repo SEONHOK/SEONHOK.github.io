@@ -39,7 +39,7 @@ redirect_from:
 </style>
 
 
-I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. I am broadly intrested in algorithmic foundations of machine learning, data science, optimization, signal processing, and wireless communication. 
+I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof. Kiryung Lee](https://u.osu.edu/kiryung). Prior to that, for my MS and BS degrees, I was fortunate to be advised by [Prof. Songnam Hong](https://sites.google.com/view/snlab) at Ajou University in South Korea. My research interests span the algorithmic foundations in the fields of data science, machine learning, optimization, and signal processing.
 
 
 
@@ -50,14 +50,22 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
 <a id="research_summary"></a>
 ## Research Summary
 
-
-
-### Robust Phase Retrieval via iterative linear programs
+### Parameter-Efficient Fine Tuning using Trace norm regularization
 
 <div class="project-content">
     <div class="project-text">
-        <p class="justified-text">Phase Retrieval recovers a signal from the absolute value of its linear measurements, which arises in signal and imaging processing. We proposed an iterative Gauss-Newton method for phase retrieval in outlier scenarios and demonstrated that a linear program can solve a step of the Gauss-Newton method. Furthermore, we established that in outlier scenarios, the method converges to the ground-truth signal at a linear rate with near-optimal sample complexity with high probability. Lastly, we demonstrate that our proposed methods are computationally efficient and exhibit superior performance compared to the baseline algorithms.
-        <a>To be appear in ICASSP 2024</a></p>
+        <p class="justified-text">Low-Rank Adaptation (LoRA) is a representative, parameter-efficient fine-tuning method for large pre-trained models in downstream tasks. To enhance LoRA's parameter efficiency, we propose a novel pruning technique that utilizes the trace norm (also referred to as the nuclear norm) with matrix factorization. We demonstrate that our method outperforms baseline algorithms, including LoRA and AdaLoRA, on the GLUE benchmark dataset, using a fewer number of parameters. This work is still ongoing for various benchmark datasets, and the paper will be released soon.
+</div>
+
+
+
+
+### Robust Phase Retrieval via iterative Gauss-Newton Method
+
+<div class="project-content">
+    <div class="project-text">
+        <p class="justified-text">Phase Retrieval recovers a signal from the absolute value of its linear measurements, which arises in signal and imaging processing. We proposed an iterative Gauss-Newton method for phase retrieval in outlier scenarios and demonstrated that a linear program can solve a step of the Gauss-Newton method. Furthermore, we established that in outlier scenarios, the method converges to the ground-truth signal at a linear rate with near-optimal sample complexity with high probability. Lastly, we demonstrate that our proposed methods are computationally efficient and exhibit superior performance compared to the baseline algorithms. This work is to appear in
+        <a href="https://2024.ieeeicassp.org/">ICASSP 2024</a>
     </div>
 
     <div class="project-image">
@@ -92,7 +100,7 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
             </li>
             <li>
                 <strong>Convex Program:</strong> We proposed a convex program to solve max-linear regression, which is a special case of max-affine regression. We show that this convex program can solve the max-affine regression problem with sample complexity comparable to the best-known results. Furthermore, we have demonstrated that our iterative version of the convex program is robust in outlier scenarios.
-                <a href="https://arxiv.org/abs/2103.07020">Read More</a>
+                <a href="https://ieeexplore.ieee.org/abstract/document/10381831">Read More</a>
             </li>
         </ul>
     </div>
