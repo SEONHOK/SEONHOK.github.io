@@ -44,7 +44,6 @@ I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof.
 
 
 
-# Research Summary
 
 
 
@@ -61,22 +60,20 @@ I'm a fifth-year Ph.D. student at the Ohio State University, working with [Prof.
         <a>To be appear in ICASSP 2024</a></p>
     </div>
 
-
-    <!-- First Row of Images -->
-    <figure class="project-image-row" style="display: flex; justify-content: space-between;">
-        <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 1 Description'>
-        <img src='/images/init_ours.png' style='width:30%;' alt='Project Image 2 Description'>
-        <img src='/images/recover_ours.png' style='width:30%;' alt='Project Image 3 Description'>
-        <figcaption>Image recovery of our algorithm: Left is true digit; middle is initialization; right is recovered image.</figcaption>
-    </figure>
-
-    <!-- Second Row of Images -->
-    <figure class="project-image-row" style="display: flex; justify-content: space-between; margin-top: 20px;">
-        <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 4 Description'>
-        <img src='/images/init_base.png' style='width:30%;' alt='Project Image 5 Description'>
-        <img src='/images/recovered_base.png' style='width:30%;' alt='Project Image 6 Description'>
-        <figcaption>Image recovery of baseline algorithm: Left is true digit; middle is initialization; right is recovered image.</figcaption>
-    </figure>
+    <div class="project-image">
+        <figure>
+            <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 1 Description'>
+            <img src='/images/init_ours.png' style='width:30%;' alt='Project Image 2 Description'>
+            <img src='/images/recover_ours.png' style='width:30%;' alt='Project Image 3 Description'>
+            <figcaption>Image recovery of our algorithm: Left is true digit; middle is initialization; right is recovered image.</figcaption> <!-- Caption for the first image -->
+        </figure>
+        <figure>
+            <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 4 Description'>
+            <img src='/images/init_base.png' style='width:30%;' alt='Project Image 5 Description'>
+            <img src='/images/recovered_base.png' style='width:30%;' alt='Project Image 6 Description'>            
+            <figcaption>Image recovery of baseline algorithm: Left is true digit; middle is initialization; right is recovered image.</figcaption> <!-- Caption for the second image -->
+        </figure>
+    </div>
 </div>
 
 ----
