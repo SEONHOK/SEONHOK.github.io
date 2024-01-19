@@ -4,10 +4,11 @@ main:
     url: "#research_summary" 
 
   - title: "Publications"
-    url: "#Publications" 
+    url: https://scholar.google.com/citations?user=3HQDmIAAAAAJ&hl=ko
+    # url: "#Publications" 
 
   - title: "CV"
-    url: /cv/
+    url: /files/Seonho_Resume.pdf
 
 
 # main:
