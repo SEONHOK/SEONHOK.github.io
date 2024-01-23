@@ -54,7 +54,14 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
 
 <div class="project-content">
     <div class="project-text">
-        <p class="justified-text">Low-Rank Adaptation (LoRA) is a representative, parameter-efficient fine-tuning method for large pre-trained models in downstream tasks. To enhance LoRA's parameter efficiency, we propose a novel pruning technique that utilizes the trace norm (also referred to as the nuclear norm) with matrix factorization. We demonstrate that our method outperforms baseline algorithms, including LoRA and AdaLoRA, on the GLUE benchmark dataset, using a fewer number of parameters. This work is still ongoing for various benchmark datasets, and the paper will be released soon.
+        <p class="justified-text">Low-Rank Adaptation (LoRA) is a representative, parameter-efficient fine-tuning method for large pre-trained models in downstream tasks. To enhance LoRA's parameter efficiency, we propose a novel pruning technique that utilizes the trace norm (also referred to as the nuclear norm) with matrix factorization. We demonstrate that our method outperforms baseline algorithms, including LoRA and AdaLoRA, on the GLUE benchmark dataset, using a fewer number of parameters. This work is still ongoing for various benchmark datasets, and the work is undergoing.
+        </p>
+    </div>
+    <div class="project-image">
+        <figure>
+            <img src='/images/TraceLoRA_figure.pdf' style='width:300px;' alt='TraceLoRA'>
+            <figcaption>An illustration of a low-rank matrix update using trace norm, where the updated matrix exhibits sparse singular values.</figcaption> <!-- Caption for the first image -->
+        </figure>
     </div>
 </div>
 
