@@ -74,7 +74,6 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
         <p class="justified-text">Phase Retrieval recovers a signal from the absolute value of its linear measurements, which arises in signal and imaging processing. We proposed an iterative Gauss-Newton method for phase retrieval in outlier scenarios and demonstrated that a linear program can solve a step of the Gauss-Newton method. Furthermore, we established that in outlier scenarios, the method converges to the ground-truth signal at a linear rate with near-optimal sample complexity with high probability. Lastly, we demonstrate that our proposed methods are computationally efficient and exhibit superior performance compared to the baseline algorithms. This work is to appear in
         <a href="https://2024.ieeeicassp.org/">ICASSP 2024</a>
     </div>
-
     <div class="project-image">
         <figure>
             <img src='/images/groundtruth.png' style='width:30%;' alt='Project Image 1 Description'>
@@ -99,10 +98,9 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
         <p class="justified-text"> 
             Max-affine regression recovers parameters in the max-affine function from its observations, which arise in statistics, economics, and machine learning. However, max-affine regression is challenging due to its non-convexity. We proposed two efficient algorithms.
         </p>
-
         <ul>
             <li>
-                <strong>First Order Methods:</strong> Gradient Descent (GD) and Stochastic Gradient Descent (SGD) are efficient and popular algorithms for solving non-convex optimization problems. We have unveiled the effectiveness of first-order methods for max-affine regression through rigorous theoretical results. We demonstrate that first-order methods, when initialized near the ground-truth parameters, can solve the max-affine regression problem with linear convergence. The sample complexity is linear in terms of dimension, and polynomial in terms of certain geometrical parameters and the number of affine functions, with a high probability.
+                <strong>First Order Methods:</strong> Gradient Descent (GD) and Stochastic Gradient Descent (SGD) are efficient and popular algorithms for solving non-convex optimization problems. We unveiled the effectiveness of first-order methods for max-affine regression through rigorous theoretical results. We demonstrate that first-order methods, when initialized near the ground-truth parameters, can solve the max-affine regression problem with linear convergence. The sample complexity is linear in terms of dimension, and polynomial in terms of certain geometrical parameters and the number of affine functions, with a high probability.
                 <a href="https://arxiv.org/abs/2308.08070">Read More</a>
             </li>
             <li>
@@ -111,7 +109,6 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
             </li>
         </ul>
     </div>
-
    <div class="project-image">
         <figure>
             <img src='/images/approxwages.png' style='width:300px;' alt='Max-affine regression on mean weakly wages data'>
