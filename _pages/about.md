@@ -59,7 +59,7 @@ I am a fifth-year Ph.D. student at the Ohio State University, working with [Prof
     </div>
     <div class="project-image">
         <figure>
-            <img src='/images/TraceLoRA_figure.pdf' style='width:300px;' alt='TraceLoRA'>
+            <img src='/images/TraceLoRA_figure.png' style='width:300px;' alt='TraceLoRA'>
             <figcaption>An illustration of a low-rank matrix update using trace norm, where the updated matrix exhibits sparse singular values.</figcaption> <!-- Caption for the first image -->
         </figure>
     </div>
